@@ -1,0 +1,8 @@
+<div class="list-group mt-3"> <a *ngFor="let post of posts" [routerLink]="post.route"
+        class="list-group-item      list-group-item-action">
+        <div class="d-flex flex-column w-100 justify-content-between">
+            <h5 class="mb-1">{{post.title}}</h5>
+            <h6 class="mb-1">{{post.description}}</h6>
+        </div>
+
+    </a></div>
